@@ -1,6 +1,7 @@
 require_relative 'tile'
 
 class Board
+  #should write on_board class and remove on_board from tile
   attr_accessor :grid
 
   def initialize
